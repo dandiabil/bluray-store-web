@@ -1,0 +1,39 @@
+.movie-card{
+    border-radius: 15px;
+    width: 300px;
+    font-family: 'Roboto';
+    cursor: pointer;
+    margin: 10px 20px;
+    background-color: #FFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+
+    .poster-wrapper{
+
+        .poster{
+            border-radius: 15px 15px 0 0;
+        }
+    }
+
+    .detail-wrapper{
+        padding: 0 15px;
+        padding-bottom: 10px;
+
+        .title{
+            word-wrap: break-word;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+        .genre{
+            margin-top: 5px;
+            font-size: 12px;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .price{
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}

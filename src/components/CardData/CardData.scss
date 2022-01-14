@@ -1,0 +1,52 @@
+.description-card {
+    border-radius: 20px;
+    background-color: #FFFF;
+    padding: 20px;
+
+    .card-header{
+        width: 100%;
+        border-bottom: 1px solid black;
+        padding-bottom: 15px;
+
+        .label {
+            font-weight: bold;
+            font-size: 32px;
+        }
+    }
+
+    .card-body{
+
+        table {
+            border-style: none;
+            text-align: left;
+    
+            tr,
+            td {
+                padding: 8px;
+                font-size: 18px;
+                
+                &:nth-child(1) {
+                    width: 220px;
+                    vertical-align: text-top;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 50px;
+                    color: #66778a;
+                }
+                &:nth-child(2) {
+                    width: 25px;
+                    vertical-align: text-top;
+                }
+                &:nth-child(3) {
+                    width: 1220px;
+                    margin: 0 auto;
+                    vertical-align: text-top;
+                    font-style: normal;
+                    font-weight: normal;
+                    color: #0E131C;;
+                }
+            }
+        }
+    }
+    
+}
