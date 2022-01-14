@@ -1,0 +1,87 @@
+.dashboard{
+    background-color: #F9F9FB;
+
+    .welcome-section{
+        height: 70vh;
+        width: 70vw;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+
+        .title{
+            font-size: 72px;
+            font-weight: 700;
+        }
+
+        .sub{
+            font-size: 34px;
+            width: 600px;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+
+        .welcome-image{
+
+            .image{
+                width: 615px;
+            }
+        }
+    }
+
+    .movie-section{
+        background-image: url("../../assets/images/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
+        background-size: cover;
+        height: auto;
+        padding: 200px;
+
+        .left{
+            width: 70vw;
+            margin: 0 auto;
+            
+        }
+
+        .right{
+            width: 70vw;
+            margin: 0 auto;
+            text-align: right;
+            padding-top: 10px;
+            
+        }
+
+        .movie-wrapper{
+            display: flex;
+            align-items: center;
+
+            .poster-wrapper{
+                flex: 1;
+
+                .poster{
+                    height: 300px;
+                    width: auto;
+
+                }
+            }
+
+            .detail-wrapper{
+                flex: 4;
+                cursor: pointer;
+
+                .title{
+                    font-size: 34px;
+                    font-weight: 700;
+                    color: white;
+                }
+        
+                .sub{
+                    font-size: 24px;
+                    color: white;
+                }
+            }
+    
+
+        }
+
+    }
+}

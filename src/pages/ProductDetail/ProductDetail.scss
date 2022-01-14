@@ -1,0 +1,47 @@
+.product{
+    font-style: 'Roboto';
+    margin-top: 50px;
+
+    .product-wrapper{
+        background-color: #FFFF;
+        width: 80vw;
+        margin: 0 auto;
+        border-radius: 20px;
+        height: 550px;
+
+        .poster-wrapper{
+            padding: 50px;
+            float: left;
+        }
+
+        .info-wrapper{
+            padding: 50px;
+            height: 550px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .title{
+                font-size: 38px;
+                font-weight: 500;
+            }
+
+            .genre{
+                font-size: 24px;
+                font-style: italic;
+            }
+
+            .price{
+                font-size: 32px;
+                font-weight: 700;
+                font-style: italic;
+            }
+        }
+    }
+
+    .description-wrapper{
+        font-family: 'Roboto';
+        width: 80vw;
+        margin: 50px auto;
+    }
+}
